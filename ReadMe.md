@@ -1,7 +1,10 @@
 Gestor Contable en Excel
 ========================
+[Suscríbete a mi canal Excel & Más en YouTube, donde encontrarás muchísimo contenido gratuito](https://www.youtube.com/user/ottojaviergonzalez)
+
 
 >Si quieres ver a detalle la explicación del Inicio del Proyecto: [Ver Vídeo Sesión 1](https://youtu.be/AejTkvK97pY)
+
 
 Este es un proyecto desarrollado en Excel mediante Visual Basic para Aplicaciones y guardado en formato binario. Está orientado a la creación de macros simples y amigables que permiten a los profesionales del área contable a ser más productivos en sus negocios.
 
@@ -210,5 +213,3 @@ End With
 End Sub
 ```
 
-
-[Suscríbete a mi canal en YouTube Excel & Más](https://www.youtube.com/user/ottojaviergonzalez)
