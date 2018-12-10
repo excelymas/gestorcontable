@@ -12,8 +12,8 @@ La versión 0.1.0 de este proyecto, contiene las dos primeras macros que facilit
 
 Una función que juega un papel muy importante en el proyecto es la función nReg, que permite identificar la fila inicial y la última fila en un listado, y que además puede identificar la celda vacía después del último registro en un listado, lo que facilita agregar nuevos registros a una base de datos si así se requiere.
 
-A continuación, te presento la función nReg
 
+>A continuación, te presento la función nReg
 ```vb
 Public Function nReg(Hoja As Worksheet, nFila As Long, nColumna As Long) As Long
     Do Until IsEmpty(Hoja.Cells(nFila, nColumna))
@@ -24,8 +24,7 @@ End Function
 ```
 
 
-La macro que nos permite generar de forma automática un Libro Mayor es la siguiente
-
+>La macro que nos permite generar de forma automática un Libro Mayor es la siguiente
 ```vb
 Sub LibroMayor() 'MACRO PARA GENERAR EL LIBRO MAYOR
 Dim Encontrado As Boolean
