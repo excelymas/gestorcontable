@@ -1,13 +1,20 @@
 Gestor Contable en Excel
 ========================
+[Suscríbete a mi canal Excel & Más en YouTube, donde encontrarás muchísimo contenido gratuito](https://www.youtube.com/user/ottojaviergonzalez)
+
+
+>Si quieres ver a detalle la explicación del Inicio del Proyecto: [Ver Vídeo Sesión 1](https://youtu.be/AejTkvK97pY)
+
+
 Este es un proyecto desarrollado en Excel mediante Visual Basic para Aplicaciones y guardado en formato binario. Está orientado a la creación de macros simples y amigables que permiten a los profesionales del área contable a ser más productivos en sus negocios.
 
 La versión 0.1.0 de este proyecto, contiene las dos primeras macros que facilitarán las tareas de generar de forma automática un Libro Mayor y un Balance de Comprobación.
 
 Una función que juega un papel muy importante en el proyecto es la función nReg, que permite identificar la fila inicial y la última fila en un listado, y que además puede identificar la celda vacía después del último registro en un listado, lo que facilita agregar nuevos registros a una base de datos si así se requiere.
 
-A continuación, te presento la función nReg
 
+
+>A continuación, te presento la función nReg
 ```vb
 Public Function nReg(Hoja As Worksheet, nFila As Long, nColumna As Long) As Long
     Do Until IsEmpty(Hoja.Cells(nFila, nColumna))
@@ -18,8 +25,8 @@ End Function
 ```
 
 
-La macro que nos permite generar de forma automática un Libro Mayor es la siguiente
 
+>La macro que nos permite generar de forma automática un Libro Mayor es la siguiente
 ```vb
 Sub LibroMayor() 'MACRO PARA GENERAR EL LIBRO MAYOR
 Dim Encontrado As Boolean
@@ -104,8 +111,9 @@ End With
 End Sub
 ```
 
-La misma macro utilizada para la construcción del Libro Mayor, fue modificada y adaptada para crear la automatización del Balance de Comprobación.
 
+
+>La misma macro utilizada para la construcción del Libro Mayor, fue modificada y adaptada para crear la automatización del Balance de Comprobación.
 ```vb
 Sub BalanceComprobacion() 'MACRO PARA GENERAR EL BALANCE DE COMPROBACIÓN
 Dim Encontrado As Boolean
@@ -206,3 +214,4 @@ End With
 
 End Sub
 ```
+
